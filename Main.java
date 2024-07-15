@@ -44,7 +44,7 @@ public class Main{
                     System.out.println("You have given a wrong input, please try again");
                     continue;
             }
-            System.out.println("Do you want to perform another calculation enter Y/y to continue or n/N to quit");
+            System.out.println("Do you want to perform another calculation,enter Y/y to continue or n/N to quit");
             option = scanner.next();
             if( !option.equals("y") && !option.equals("Y")){
                 break;
@@ -52,6 +52,7 @@ public class Main{
         }
     }
 }
+
 class Calculator{
     double result;
     void add(double num1, double num2)
